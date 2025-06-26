@@ -6,18 +6,15 @@ ___
 ## Rappel du sujet
 Le but est de creer un algorithme "FizzBuzz" qui à pour but de déterminer si un nombre est divisible par 3, 5 ou les deux.
 
-## La logique utilisée
-L'algorithme de ce répo est rédigé en JavasScript.
+### Technos
+L'algorithme de ce répo est rédigé en TypeScript. Et utilise l'API ReadLine intégrée de Node.js pour lire les entrées de l'utilisateur.
 
+
+### La logique utilisée
 La clé de ce dernier réside dans l'utilisation de l'opérateur modulo `%` retourne le reste de la division d'un nombre `n` par un nombre `k`.
 Si le reste est égal à 0, alors `n` est divisible par `k`.
 
 Dans le cas du FizzBuzz, nous vérifions si le nombre est divisible par 3, 5 ou les deux.
-
-## Coté technique / utilisation
-
-### Technos
-L'algorithme de ce répo est rédigé en TypeScript. Et utilise l'API ReadLine intégrée de Node.js pour lire les entrées de l'utilisateur.
 
 ### Installation
 1. Cloner le répo
