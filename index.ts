@@ -1,13 +1,13 @@
 const readline = require('readline');
 
-const fizzBuzz = (n: number): void => {
+const fizzBuzz: (n:number) => void = (n: number): void => {
   if (n <= 0 || isNaN(n)) {
     console.error('Veuillez entrer un nombre entier positif.');
     return;
   }
 
-  for (let i = 1; i <= n; i++) {
-    let output = '';
+  for (let i: number = 1; i <= n; i++) {
+    let output: string = '';
 
     if (i % 3 === 0) output += 'Fizz';
     if (i % 5 === 0) output += 'Buzz';
@@ -21,7 +21,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question('Entrez un nombre pour FizzBuzz : ', (answer: string) => {
+rl.question('Entrez un nombre pour FizzBuzz : ', (answer: string): void => {
   const number: number = parseInt(answer, 10);
   fizzBuzz(number);
   rl.close();
