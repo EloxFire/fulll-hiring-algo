@@ -16,7 +16,7 @@ Si le reste est égal à 0, alors `n` est divisible par `k`.
 Dans le cas du FizzBuzz, nous vérifions si le nombre est divisible par 3, 5 ou les deux.
 
 ### Installation
-1. Cloner le répo
+1. Cloner le répo `git clone https://github.com/EloxFire/fulll-hiring-algo.git`
 2. Installer les dépendances avec `npm install`
 3. Compiler le code TypeScript en JavaScript avec `npm run build`
 
