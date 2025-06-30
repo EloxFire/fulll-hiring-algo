@@ -21,8 +21,13 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question('Entrez un nombre pour FizzBuzz : ', (answer: string): void => {
+rl.question('Entrez un nombre pour FizzBuzz : ', function handleAnswer(answer: string): void {
   const number: number = parseInt(answer, 10);
-  fizzBuzz(number);
-  rl.close();
+  if (number <= 0 || isNaN(number)) {
+    console.error('Veuillez entrer un nombre entier positif.');
+    rl.question('Entrez un nombre pour FizzBuzz : ', handleAnswer);
+  } else {
+    fizzBuzz(number);
+    rl.close();
+  }
 });
