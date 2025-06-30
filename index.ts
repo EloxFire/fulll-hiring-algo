@@ -1,4 +1,4 @@
-const readline = require('readline');
+import readline from 'readline';
 
 const fizzBuzz: (n:number) => void = (n: number): void => {
   if (n <= 0 || isNaN(n)) {
