@@ -18,10 +18,9 @@ Dans le cas du FizzBuzz, nous vérifions si le nombre est divisible par 3, 5 ou 
 ### Installation
 1. Cloner le répo `git clone https://github.com/EloxFire/fulll-hiring-algo.git`
 2. Installer les dépendances avec `npm install`
-3. Compiler le code TypeScript en JavaScript avec `npm run build`
+3. Lancer l'algo `npm run start`
 
 ### Utilisation
-1. Exécuter le code avec `npm run start`
 2. Saisir un nombre entier dans la console
 3. Le programme affichera "Fizz" si le nombre est divisible par 3, "Buzz" s'il est divisible par 5, "FizzBuzz" s'il est divisible par les deux, ou le nombre lui-même s'il n'est pas divisible par 3 ou 5.
 
